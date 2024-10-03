@@ -9,10 +9,14 @@
       }
     ],
     "routes": [
-      {
-        "src": "/(.*)",
-        "dest": "/index.html"
-      }
+        {
+            "src": "/(.*)",
+            "dest": "src/main.jsx",
+            "methods": ["GET", "POST", "PUT", "DELETE", "PATCH", "OPTIONS"],
+            "headers": {
+                "Access-Control-Allow-Origin": "*"
+            }
+        }
     ],
     "headers": [
       {
