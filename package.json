@@ -9,7 +9,8 @@
     "build:vite": "vite build",
     "build:webpack": "webpack --mode production",
     "preview:vite": "vite preview",
-    "preview:webpack": "serve -s dist"
+    "preview:webpack": "serve -s dist",
+    "vercel-build": "vite build"
   },
   "dependencies": {
     "react": "^18.3.1",
