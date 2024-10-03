@@ -4,6 +4,7 @@ const App = () => {
   return (
     <div>
       <h1>App React + VITE + WEBPACK</h1>
+      <h2>This is WEBPACK</h2>
     </div>
   );
 };
