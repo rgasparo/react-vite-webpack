@@ -4,11 +4,8 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev:vite": "vite",
     "dev:webpack": "webpack serve --open",
-    "build:vite": "vite build",
     "build:webpack": "webpack --mode production",
-    "preview:vite": "vite preview",
     "preview:webpack": "serve -s dist"
   },
   "dependencies": {
