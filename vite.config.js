@@ -9,8 +9,6 @@ export default defineConfig({
       name: 'mf-react-vite', // Nombre de la aplicación
       filename: 'remoteEntry.js', // Nombre del archivo remoto
       exposes: {
-        // Componentes o módulos que serán consumidos por otras apps
-        './ComponentName': './src/components/ComponentName.jsx',
       },
       remotes: {
         // Consumir otros microfrontends:
